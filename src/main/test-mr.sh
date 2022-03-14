@@ -311,7 +311,7 @@ if cmp mr-crash-all mr-correct-crash.txt
 then
   echo '---' crash test: PASS
 else
-  echo '---' crash output is not the same as mr-correct-crash.txt
+  echo '---' crash output is not the same as  -correct-crash.txt
   echo '---' crash test: FAIL
   failed_any=1
 fi
